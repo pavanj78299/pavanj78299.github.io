@@ -2,10 +2,11 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    scroll-behavior:smooth;
 }
 
 body{
-    background:#0f0f0f;
+    background:#050816;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -14,26 +15,29 @@ header{
     width:100%;
     position:fixed;
     top:0;
-    background:#111;
-    padding:20px 10%;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(10px);
     z-index:1000;
-    border-bottom:1px solid #222;
+    border-bottom:1px solid rgba(255,255,255,0.1);
 }
 
 nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    padding:20px 10%;
 }
 
-nav h2{
-    color:#00ffcc;
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#00ffe0;
 }
 
 nav ul{
     display:flex;
     list-style:none;
-    gap:25px;
+    gap:30px;
 }
 
 nav a{
@@ -43,37 +47,49 @@ nav a{
 }
 
 nav a:hover{
-    color:#00ffcc;
+    color:#00ffe0;
 }
 
 .hero{
-    height:100vh;
+    min-height:100vh;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
-    text-align:center;
-    padding:20px;
+    padding:120px 10%;
+    gap:50px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h3{
+    color:#c084fc;
+    margin-bottom:20px;
 }
 
 .hero-text h1{
-    font-size:60px;
+    font-size:70px;
     margin-bottom:20px;
 }
 
 .hero-text span{
-    color:#00ffcc;
+    color:#00ffe0;
 }
 
 .hero-text h2{
-    font-size:30px;
+    font-size:40px;
     margin-bottom:20px;
-    color:#aaa;
+    color:#d1d5db;
 }
 
 .hero-text p{
-    max-width:700px;
     line-height:1.8;
+    max-width:600px;
     margin-bottom:30px;
 }
 
+.buttons{
+    display:flex;
+    gap:20px;
 }
