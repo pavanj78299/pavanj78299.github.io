@@ -54,7 +54,7 @@ nav a:hover{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:140px 8%;
+    padding: 120px 10% 60px;
     gap:70px;
 }
 
