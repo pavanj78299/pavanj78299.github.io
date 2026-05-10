@@ -1,81 +1,216 @@
+# Premium Neon MCA Portfolio Website
+
+## index.html
+
+```html
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan | Android Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+
+    <nav>
+
+        <div class="logo">
+            PAVAN
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="hero" id="home">
+
+    <div class="hero-text">
+
+        <h3>MCA STUDENT</h3>
+
+        <h1>Hello, I'm <span>Pavan</span></h1>
+
+        <h2>Android Developer</h2>
+
+        <p>
+            Passionate Android developer building modern mobile applications using Kotlin and Jetpack Compose.
+        </p>
+
+        <div class="buttons">
+
+            <a href="https://github.com/pavanj78299" target="_blank">
+                View GitHub
+            </a>
+
+            <a href="#contact" class="contact-btn">
+                Contact Me
+            </a>
+
+        </div>
+
+
+        <div class="social-icons">
+
+            <a href="https://github.com/pavanj78299" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <img src="https://i.imgur.com/8Km9tLL.png" alt="Profile">
+
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <h2>About Me</h2>
+
+    <div class="about-card">
+
+        <p>
+            I'm currently pursuing MCA and learning Android app development.
+            I enjoy building clean, modern, and attractive mobile applications.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="skills" id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <i class="fab fa-android"></i>
+            <p>Android</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <p>Kotlin</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-github"></i>
+            <p>GitHub</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="projects" id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <img src="https://i.imgur.com/7b1K6tD.png" alt="Notes App">
+
+            <h3>NOKIA NOTES</h3>
+
             <p>
-                I'm currently pursuing MCA and learning Android App Development.
-                I enjoy creating beautiful and functional applications using Kotlin,
-                Jetpack Compose, and modern Android technologies.
+                A clean Nokia-inspired Notes app built using Kotlin and Jetpack Compose.
             </p>
-        </div>
 
-    </section>
-
-
-    <section id="skills" class="section">
-
-        <h2>Skills</h2>
-
-        <div class="skills-container">
-            <div class="skill">Kotlin</div>
-            <div class="skill">Android Studio</div>
-            <div class="skill">Jetpack Compose</div>
-            <div class="skill">GitHub</div>
-            <div class="skill">UI Design</div>
-            <div class="skill">XML</div>
-        </div>
-
-    </section>
-
-
-    <section id="projects" class="section">
-
-        <h2>Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-                <h3>NOKIA NOTES</h3>
-
-                <p>
-                    A Nokia-inspired Android Notes app built using Kotlin and Jetpack Compose.
-                </p>
-
-                <a href="https://github.com/pavanj78299/notes" target="_blank">
-                    View Project
-                </a>
-            </div>
-
-
-            <div class="project-card">
-                <h3>Calculator App</h3>
-
-                <p>
-                    A modern Android calculator application with clean UI and live calculations.
-                </p>
-
-                <a href="#">
-                    View Project
-                </a>
-            </div>
+            <a href="https://github.com/pavanj78299/notes" target="_blank">
+                View Project
+            </a>
 
         </div>
 
-    </section>
 
+        <div class="project-card">
 
-    <section id="contact" class="section">
+            <img src="https://i.imgur.com/98p9Z3o.png" alt="Calculator App">
 
-        <h2>Contact</h2>
+            <h3>Calculator App</h3>
 
-        <div class="card">
-            <p>Email: yourmail@gmail.com</p>
-            <p>GitHub: github.com/pavanj78299</p>
+            <p>
+                Modern Android calculator app with clean UI and live calculations.
+            </p>
+
+            <a href="#">
+                View Project
+            </a>
+
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <footer>
-        <p>© 2026 Pavan | Android Developer</p>
-    </footer>
+<section class="contact" id="contact">
+
+    <h2>Contact</h2>
+
+    <div class="contact-card">
+
+        <p>Email : yourmail@gmail.com</p>
+
+        <p>GitHub : github.com/pavanj78299</p>
+
+        <p>India</p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>© 2026 Pavan | Android Developer</p>
+
+</footer>
 
 </body>
 </html>
